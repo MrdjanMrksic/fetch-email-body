@@ -1,0 +1,19 @@
+{
+    "name": "fetch-email-body",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "imap-simple": "^5.1.0",
+        "mailparser": "^3.7.2"
+    },
+    "devDependencies": {
+        "@types/imap-simple": "^4.2.9",
+        "@types/mailparser": "^3.4.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "scripts": {
+        "start": "node --loader ts-node/esm specs/fetchemailbody.ts"
+    }
+}
